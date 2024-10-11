@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import type { Product } from "~/types";
-import formatPrice from "../functions/formatPrice";
-import { convertRubToEur } from "../functions/convertPrice";
+import type { Product } from "@/types";
+import formatPrice from "@/functions/formatPrice";
+import { convertRubToEur } from "@/functions/convertPrice";
 
 defineProps<{
   product: Product;
