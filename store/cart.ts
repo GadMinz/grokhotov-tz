@@ -8,7 +8,7 @@ export const useCartStore = defineStore("cart", () => {
       id: 1,
       name: "Вытяжное устройство G2H",
       price: 12644,
-      quantity: 1,
+      quantity: 4,
       article: "G2H1065",
       description:
         "12-72/168 м3/ч / гидрорегулируемый расход / от датчика присутствия",
@@ -19,7 +19,7 @@ export const useCartStore = defineStore("cart", () => {
       id: 2,
       name: "Вытяжное устройство BXC",
       price: 12644,
-      quantity: 21,
+      quantity: 8,
       article: "G2H1065",
       description:
         "12-72/168 м3/ч / гидрорегулируемый расход / от датчика присутствия",
